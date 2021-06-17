@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Survey Form | Ardhito Pramono</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1 id="title">Ardhito Pramono Survey Form</h1>
+
+	<p id="description">Please fill the form, thank you.</p>
+
+	<form id="survey-form">
+		<label for="name" id="name-label">
+			Name
+			<input type="text" name="name" id="name" placeholder="Enter your name..." required>
+		</label>
+		<label for="email" id="email-label">
+			Email
+			<input type="email" name="email" id="email" placeholder="Enter your email..." required>
+		</label>
+		<label for="number" id="number-label">
+			Age
+			<input type="number" name="number" id="number" placeholder="How old are you ? min 15 max 60" min="15" max="60">
+		</label>
+		<label for="dropdown" id="dropdown-label">
+			How do you know Ardhito Pramono ?
+			<select id="dropdown">
+				<option value="youtube">Youtube</option>
+				<option value="social media">Social Media</option>
+			</select>
+		</label>
+		<label for="favorite-album" id="dropdown-label">
+			Favorite Album
+		</label>
+		<input type="radio" name="favorite-album" id="favorite-album" value="Ardhito Pramono"> Ardhito Pramono(2017)<br>
+		<input type="radio" name="favorite-album" id="favorite-album" value="Playlist, Vol. 2"> Playlist, Vol. 2(2017)<br>
+		<input type="radio" name="favorite-album" id="favorite-album" value="A letter to my 17-year-old"> A letter to my 17-year-old(2019)<br>
+		<input type="radio" name="favorite-album" id="favorite-album" value="Craziest thing happened in my backyard"> Craziest thing happened in my backyard(2020)<br>
+		<label for="favorite-album" id="album-label">
+			Favorite Album
+		</label>
+		<input type="checkbox" name="favorite-album" id="favorite-album" value="Ardhito Pramono"> Ardhito Pramono(2017)<br>
+		<input type="checkbox" name="favorite-album" id="favorite-album" value="Playlist, Vol. 2"> Playlist, Vol. 2(2017)<br>
+		<input type="checkbox" name="favorite-album" id="favorite-album" value="A letter to my 17-year-old"> A letter to my 17-year-old(2019)<br>
+		<input type="checkbox" name="favorite-album" id="favorite-album" value="Craziest thing happened in my backyard"> Craziest thing happened in my backyard(2020)<br>
+
+		<label for="comment" id="comment">
+			Any Comment or Suggestion ?
+			<textarea id="comment" cols="30" rows="10" placeholder="Comment or Suggestion"></textarea>
+		</label>
+
+		<button type="submit" id="submit">Submit</button>
+	</form>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

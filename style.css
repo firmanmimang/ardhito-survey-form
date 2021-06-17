@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap');
+
+*{
+	margin:  0;
+	padding:  0;
+	box-sizing: border-box;
+}
+
+body::before{
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(90deg, rgba(2,0,36,.5) 0%, rgba(168,168,168,.5) 33%, rgba(255,255,255,.5) 100%), url(https://awsimages.detik.net.id/community/media/visual/2020/03/23/24a18315-c64d-41b3-a080-5c40a610493f_169.jpeg?w=700&q=90);
+	z-index: -1;
+	background-size: cover;
+}
+
+body{
+	font-family: 'Fira Sans', sans-serif;
+	padding: 30px;
+}
+
+h1, p{
+	text-align: center;
+}
+
+#description{
+	margin: 10px 0 25px 0;
+}
+
+form{
+	max-width: 600px;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin: 0 auto;
+	padding: 20px 40px;
+	color: white;
+	border-radius: 5px;
+}
+
+label{
+	display: block;
+	margin: 20px 0;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea{
+	height: 40px;
+	width: 100%;
+	border-radius: 5px;
+	border: 0;
+	padding: 7px 10px 7px 10px;
+	font-family: inherit;
+	margin: 10px 0 0 0;
+}
+
+textarea{
+	height: 100px;
+	font-family: inherit;
+}
+
+button{
+	width: 100%;
+	height: 35px;
+	background-color: red;
+	font-family: inherit;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+}
